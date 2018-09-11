@@ -6,7 +6,10 @@ description: "简单01背包问题"
 tag: dp
 
 ---
-﻿###Hdu2602 - Bone Collector(01背包问题)
+
+###Hdu2602 - Bone Collector(01背包问题)
+
+
 
  - 01背包递归写法(记忆化)
  - 二维dp
@@ -23,7 +26,7 @@ tag: dp
  - 否则我就递归的去求**<font color = red>选择了i号物品的最大值和不选择i号物品的最大值</font>**中，我们要取的最大值；
 
 ```
-	public static int maxValue(int[] w,int[] v,int C){
+    public static int maxValue(int[] w,int[] v,int C){
         return process(w,v,0,0,C);
     }
     private static int process(int[] w, int[] v, int i, int curW, int C) {
