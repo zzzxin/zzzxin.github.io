@@ -1,13 +1,12 @@
+---
 layout: post
-title: Hdu2602-Bone Collector(01背包问题)
-date: 2018-09-10 
-tag: DP
+title: "Hdu2602-Bone-Collector(01背包问题)"
+date: 2018-09-10 11:15:06 
+description: "简单01背包问题"
+tag: dp
 
-***
-
-
-
-﻿###Hdu2602-Bone Collector(01背包问题)
+---
+﻿###Hdu2602 - Bone Collector(01背包问题)
 
  - 01背包递归写法(记忆化)
  - 二维dp
